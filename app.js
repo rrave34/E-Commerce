@@ -89,7 +89,7 @@ const currentProductSizes = document.querySelectorAll(".size");
 
 menuItems.forEach((item, index) => {
     item.addEventListener("click", () => {
-        //change the current slide
+
         wrapper.style.transform = `translateX(${-100 * index}vw)`;
 
 
@@ -133,5 +133,5 @@ productButton.addEventListener("click", () => {
 });
 
 close.addEventListener("click", () => {
-   payment.style.display = "none";
+    payment.style.display = "none";
 });
