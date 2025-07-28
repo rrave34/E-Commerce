@@ -8,6 +8,10 @@ nav {
     background-color: #111;
     color: white;
     padding: 20px 50px;
+     box-shadow: 0 4px 6px -1px rgba(0, 255, 0, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+
 }
 
 .navTop {
@@ -445,12 +449,36 @@ footer {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.fIcon:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
 }
 
 .copyright {
     font-weight: 300;
     font-size: 14px;
 }
+
+.buyButton,
+.productButton,
+.nsButton,
+.fButton {
+    transition: all 0.3s ease;
+}
+
+.buyButton:hover,
+.productButton:hover,
+.nsButton:hover,
+.fButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 
 @media screen and (max-width:480px) {
     nav {
