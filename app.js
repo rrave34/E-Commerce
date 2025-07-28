@@ -3,13 +3,13 @@ const menuItems = document.querySelectorAll(".menuItem");
 
 const products = [
     {
-        id: 1,
-        title: "Air Force",
-        price: 119,
-        colors: [
+        id: 1, //Ürün Kimliği Eşssiz {Numara} 
+        title: "Air Force", //Ürün Adı 
+        price: 119,    //Ürün Fiyatı
+        colors: [ //Ürünün mevcut Renk Seçenekleri 
             {
                 code: "black",
-                img: "./img/air.png",
+                img: "./img/air.png", //renge özel görsel yolu
             },
             {
                 code: "darkblue",
